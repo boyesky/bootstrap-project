@@ -217,7 +217,7 @@
       data-bs-toggle="modal"
       data-bs-target="#exampleModal"
     >
-      Book a trip
+      Book a Trip
     </button>
 
     <!-- Modal -->
@@ -231,7 +231,8 @@
       <div class="modal-dialog">
         <div class="modal-content">
           <div class="modal-header">
-            <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
+            <h1 class="modal-title fs-5" id="exampleModalLabel">Book a Trip</h1>
+
             <button
               type="button"
               class="btn-close"
@@ -239,7 +240,24 @@
               aria-label="Close"
             ></button>
           </div>
-          <div class="modal-body">...</div>
+          <div class="modal-body">
+            <form action="">
+              <label for="full name">Full Name</label>
+              <input type="text" />
+              <label for="full name">Email Address</label>
+              <input type="email" />
+              <label for="full name">Destination</label>
+              <input type="text" />
+              <label for="full name">Departure Date</label>
+              <input type="date" />
+              <label for="full name">Return Date</label>
+              <input type="date" />
+              <label for="full name">Number of Travelers</label>
+              <input type="number" />
+              <label for="full name">Special Requests</label>
+              <input type="text" />
+            </form>
+          </div>
           <div class="modal-footer">
             <button
               type="button"
