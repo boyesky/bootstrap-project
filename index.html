@@ -242,24 +242,23 @@
               aria-label="Close"
             ></button>
           </div>
-          <div class="modal-body">
-            <form action="body-form">
-              <label for="full name">Full Name</label>
-              <input type="text" placeholder="" required />
-              <label for="full name">Email Address</label>
-              <input type="email" placeholder="" required />
-              <label for="full name">Destination</label>
-              <input type="text" placeholder="" required />
-              <label for="full name">Departure Date</label>
-              <input type="date" placeholder="" required />
-              <label for="full name">Return Date</label>
-              <input type="date" placeholder="" required />
-              <label for="full name">Number of Travelers</label>
-              <input type="number" placeholder="" required />
-              <label for="full name">Special Requests</label>
-              <input type="text" placeholder="" required />
-            </form>
-          </div>
+
+          <form action="">
+            <label for="full name">Full Name</label>
+            <input type="text" placeholder="" required />
+            <label for="email address">Email Address</label>
+            <input type="email" placeholder="" required />
+            <label for="destination">Destination</label>
+            <input type="text" placeholder="" required />
+            <label for="departure date">Departure Date</label>
+            <input type="date" placeholder="" required />
+            <label for="return date">Return Date</label>
+            <input type="date" placeholder="" required />
+            <label for="number of travelers">Number of Travelers</label>
+            <input type="number" placeholder="0" required />
+            <label for="special request">Special Requests</label>
+            <input class="req" type="text" placeholder="" required />
+          </form>
           <div class="modal-footer">
             <button
               type="button"

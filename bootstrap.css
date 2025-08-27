@@ -23,4 +23,16 @@ footer {
 form {
   display: flex;
   flex-direction: column;
+  margin: 20px 15px;
+  gap: 8px;
+}
+form input {
+  height: 30px;
+  border-radius: 6px;
+  border-color: ;
+  padding-left: 10px;
+  border: 1px solid #b8b8b8;
+}
+.req {
+  height: 80px;
 }
