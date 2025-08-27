@@ -20,3 +20,7 @@ footer {
   flex-direction: column;
   gap: 12px;
 }
+form {
+  display: flex;
+  flex-direction: column;
+}

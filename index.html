@@ -211,14 +211,16 @@
 
     <!-- Modal -->
     <!-- Button trigger modal -->
-    <button
-      type="button"
-      class="btn btn-primary"
-      data-bs-toggle="modal"
-      data-bs-target="#exampleModal"
-    >
-      Book a Trip
-    </button>
+    <div class="d-flex justify-content-center align-items-center">
+      <button
+        type="button"
+        class="btn btn-primary"
+        data-bs-toggle="modal"
+        data-bs-target="#exampleModal"
+      >
+        Book a Trip
+      </button>
+    </div>
 
     <!-- Modal -->
     <div
@@ -241,21 +243,21 @@
             ></button>
           </div>
           <div class="modal-body">
-            <form action="">
+            <form action="body-form">
               <label for="full name">Full Name</label>
-              <input type="text" />
+              <input type="text" placeholder="" required />
               <label for="full name">Email Address</label>
-              <input type="email" />
+              <input type="email" placeholder="" required />
               <label for="full name">Destination</label>
-              <input type="text" />
+              <input type="text" placeholder="" required />
               <label for="full name">Departure Date</label>
-              <input type="date" />
+              <input type="date" placeholder="" required />
               <label for="full name">Return Date</label>
-              <input type="date" />
+              <input type="date" placeholder="" required />
               <label for="full name">Number of Travelers</label>
-              <input type="number" />
+              <input type="number" placeholder="" required />
               <label for="full name">Special Requests</label>
-              <input type="text" />
+              <input type="text" placeholder="" required />
             </form>
           </div>
           <div class="modal-footer">
